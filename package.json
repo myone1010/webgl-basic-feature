@@ -1,0 +1,35 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.1.2",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.5",
+    "three": "^0.166.1",
+    "tweenjs": "^1.0.2",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.4.31",
+    "vue-3d-loader": "^2.2.4",
+    "vue-router": "^4.3.3",
+    "vue3-qr-code-styling": "^1.4.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "vite": "^5.3.1"
+  }
+}
